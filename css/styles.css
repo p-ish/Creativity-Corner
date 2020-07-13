@@ -1,0 +1,103 @@
+body{
+  margin:0;
+}
+
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 130px;
+  font-weight: bold;
+  z-index: 0;
+}
+
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  font-weight: normal;
+  text-align: center;
+}
+
+h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+}
+
+#title{
+  padding:50px 50px 420px 50px;
+  background-color:#f8fab8;
+}
+
+.paint{
+  position: absolute;
+  width: 15.625rem; /*250px*/
+  right: 3.125rem; /*50px*/
+  top: 1.25rem; /*20px*/
+  z-index: 0;
+}
+
+.canvas{
+  position: absolute;
+  width: 12.5rem;/*200px*/
+  right: 6.25rem;/*100px*/
+  top: 18.75rem;/*300px*/
+  z-index: 0;
+}
+
+.photography{
+  position: absolute;
+  width: 15.625rem;/*250px*/
+  right: 9.375rem;/*150px*/
+  top: 31.25rem;/*500px*/
+}
+
+.photos{
+  position: absolute;
+  right: 28.125rem;/*450px*/
+  width: 9.375rem;/*150px*/
+  top: 25rem;/*400px*/
+}
+
+.music{
+  position: absolute;
+  width: 12.5rem;/*200px*/
+  right: 31.25rem;/*500px*/
+  top: 37.5rem;/*600px*/
+}
+
+.singing{
+  position: absolute;
+  width: 12.5rem;/*200px*/
+  left: 31.25rem;/*500px*/
+  top: 35rem;/*560px*/
+  z-index: 0;
+}
+
+.dancing{
+  position: absolute;
+  width: 15.625rem;/*250px*/
+  top: 37.5rem;/*600px*/
+  left: 12.5rem;/*200px*/
+  z-index: 0;
+}
+
+#intro{
+  background-color:#790c5a;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.list{
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  line-height: 2;
+  padding: 2% 13%;
+}
